@@ -44,6 +44,18 @@ const commands = [
       },
     ],
   },
+  {
+    name: "play",
+    description: "曲を再生します",
+    options: [
+      {
+        name: "song",
+        description: "再生する曲名",
+        type: 3,
+        required: true,
+      },
+    ],
+  },
 ];
 
 rest

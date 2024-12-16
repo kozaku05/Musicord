@@ -43,7 +43,7 @@ async function searchSong(query) {
       title: track.name,
       artist: track.artists[0].name,
       url: track.external_urls.spotify,
-      thumbnail: track.album.images[0]?.url,
+      thumbnail: track.album?.images[0]?.url,
     };
   } catch (error) {
     return null;

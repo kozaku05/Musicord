@@ -1,7 +1,3 @@
-const axios = require("axios");
-const dotenv = require("dotenv");
-dotenv.config();
-
 const client_id = process.env.SPOTIFY_ID;
 const client_secret = process.env.SPOTIFY_SECRET;
 async function getAccessToken() {
